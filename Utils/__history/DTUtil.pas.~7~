@@ -1,0 +1,18 @@
+unit DTUtil;
+
+interface
+
+uses
+  StrUtils, Types, System.Classes, System.SysUtils, IOUtils, System.SyncObjs, System.Hash, System.Diagnostics,
+  System.RegularExpressions;
+
+function SomenteNumeros(cTexto, cExceto: String): String;
+
+implementation
+
+function SomenteNumeros(cTexto, cExceto: String): String;
+begin
+
+end;
+
+end.

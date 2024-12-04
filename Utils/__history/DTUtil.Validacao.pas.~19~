@@ -1,0 +1,72 @@
+unit DTUtil.Validacao;
+
+interface
+
+uses
+  System.SysUtils, Vcl.Controls, Vcl.StdCtrls, Vcl.CheckLst, Vcl.ComCtrls, Vcl.Dialogs, System.Classes;
+
+type
+  TValidacaoTipo = (vtVazio, vtNumerico, vtData, vtSelecionado);
+
+procedure Validar(oComponente: TControl; oValidacao: TValidacaoTipo; cMensagem: String);
+
+implementation
+
+procedure Validar(oComponente: TControl; oValidacao: TValidacaoTipo; cMensagem: String);
+var
+  cTexto: String;
+  Numero: Integer;
+  Data: TDateTime;
+begin
+  cTexto := '';
+
+  if oComponente is TEdit then
+    cTexto := TEdit(oComponente).Text
+  else
+  if oComponente is TComboBox then
+    cTexto := TComboBox(oComponente).Text
+  else
+  if oComponente is TCheckBox then
+    cTexto := BoolToStr(TCheckBox(oComponente).Checked, True)
+  else
+  if oComponente is TDateTimePicker then
+    cTexto := DateTimeToStr(TDateTimePicker(oComponente).DateTime)
+  else
+    cTexto := '';
+
+  case oValidacao of
+    vtVazio:
+      if cTexto.Trim = '' then
+        ShowMessage(cMensagem);
+
+    vtNumerico:
+      if not TryStrToInt(cTexto, Numero) then
+        ShowMessage(cMensagem);
+
+    vtData:
+      if not TryStrToDate(cTexto, Data) then
+        ShowMessage(cMensagem);
+
+    vtSelecionado:
+      if (oComponente is TCheckBox) and not TCheckBox(oComponente).Checked then
+        ShowMessage(cMensagem);
+  end;
+
+  if (cTexto.Trim = '') or (not TryStrToInt(Texto, Numero)) or (not TryStrToDate(Texto, Data)) then
+  begin
+    if oComponente is TEdit then
+      TEdit(oComponente).SetFocus
+    else
+    if oComponente is TComboBox then
+      TComboBox(oComponente).SetFocus
+    else
+    if oComponente is TCheckBox then
+      TCheckBox(oComponente).SetFocus
+    else
+    if oComponente is TDateTimePicker then
+      TDateTimePicker(oComponente).SetFocus;
+  end;
+end;
+
+end.
+

@@ -1,0 +1,5 @@
+inherited frmBase1: TfrmBase1
+  Caption = 'Pesquisa base'
+  StyleElements = [seFont, seClient, seBorder]
+  TextHeight = 15
+end

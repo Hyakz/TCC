@@ -1,0 +1,14 @@
+program TCC;
+
+uses
+  Vcl.Forms,
+  uBase in '..\Herança\uBase.pas' {frmBase};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmBase, frmBase);
+  Application.Run;
+end.
