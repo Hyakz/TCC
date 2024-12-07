@@ -1,0 +1,15 @@
+program TCC;
+
+uses
+  Vcl.Forms,
+  DTUtil in '..\Utils\DTUtil.pas',
+  DTUtil.Mensagem in '..\Utils\DTUtil.Mensagem.pas',
+  DTUtil.Validacao in '..\Utils\DTUtil.Validacao.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.Run;
+end.

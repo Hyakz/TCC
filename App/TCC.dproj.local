@@ -6,8 +6,8 @@
     <Transaction>2024/12/04 15:54:04.000.912,C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\kaleu\OneDrive\Desktop\TCC\Herança\uBase.pas</Transaction>
     <Transaction>2024/12/04 15:54:13.000.596,C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\kaleu\OneDrive\Desktop\TCC\App\TCC.dproj</Transaction>
     <Transaction>2024/12/04 15:54:27.000.826,=C:\Users\kaleu\OneDrive\Desktop\TCC\App\Unit1.pas</Transaction>
-    <Transaction>2024/12/04 15:54:46.000.898,C:\Users\kaleu\OneDrive\Desktop\TCC\App\Unit1.pas=C:\Users\kaleu\OneDrive\Desktop\TCC\Herança\uCadBase.pas</Transaction>
     <Transaction>2024/12/04 15:54:46.000.898,C:\Users\kaleu\OneDrive\Desktop\TCC\App\Unit1.dfm=C:\Users\kaleu\OneDrive\Desktop\TCC\Herança\uCadBase.dfm</Transaction>
+    <Transaction>2024/12/04 15:54:46.000.898,C:\Users\kaleu\OneDrive\Desktop\TCC\App\Unit1.pas=C:\Users\kaleu\OneDrive\Desktop\TCC\Herança\uCadBase.pas</Transaction>
     <Transaction>2024/12/04 15:54:55.000.225,=C:\Users\kaleu\OneDrive\Desktop\TCC\App\Unit1.pas</Transaction>
     <Transaction>2024/12/04 15:55:59.000.782,C:\Users\kaleu\OneDrive\Desktop\TCC\App\Unit1.dfm=C:\Users\kaleu\OneDrive\Desktop\TCC\Herança\uPsqBase.dfm</Transaction>
     <Transaction>2024/12/04 15:55:59.000.782,C:\Users\kaleu\OneDrive\Desktop\TCC\App\Unit1.pas=C:\Users\kaleu\OneDrive\Desktop\TCC\Herança\uPsqBase.pas</Transaction>
@@ -19,5 +19,15 @@
     <Transaction>2024/12/04 15:58:25.000.824,C:\Users\kaleu\OneDrive\Desktop\TCC\App\Unit1.pas=C:\Users\kaleu\OneDrive\Desktop\TCC\Utils\DTUtil.Validacao.pas</Transaction>
     <Transaction>2024/12/04 15:58:32.000.321,=C:\Users\kaleu\OneDrive\Desktop\TCC\App\Unit1.pas</Transaction>
     <Transaction>2024/12/04 16:40:56.000.634,=C:\Users\kaleu\OneDrive\Desktop\TCC\App\Unit1.pas</Transaction>
+    <Transaction>2024/12/07 16:41:02.177,=C:\Users\kaleu\OneDrive\Desktop\TCC\Inheritance\uBase.pas</Transaction>
+    <Transaction>2024/12/07 16:41:02.448,=C:\Users\kaleu\OneDrive\Desktop\TCC\Inheritance\uCadBase.pas</Transaction>
+    <Transaction>2024/12/07 16:41:02.495,=C:\Users\kaleu\OneDrive\Desktop\TCC\Inheritance\uPsqBase.pas</Transaction>
+    <Transaction>2024/12/07 16:43:07.528,=C:\Users\kaleu\OneDrive\Desktop\TCC\App\Unit1.pas</Transaction>
+    <Transaction>2024/12/07 16:43:42.037,C:\Users\kaleu\OneDrive\Desktop\TCC\App\uPrincipal.pas=C:\Users\kaleu\OneDrive\Desktop\TCC\App\Unit1.pas</Transaction>
+    <Transaction>2024/12/07 16:43:42.037,C:\Users\kaleu\OneDrive\Desktop\TCC\App\uPrincipal.dfm=C:\Users\kaleu\OneDrive\Desktop\TCC\App\Unit1.dfm</Transaction>
+    <Transaction>2024/12/07 16:43:52.848,C:\Users\kaleu\OneDrive\Desktop\TCC\App\uPrincipal.pas=</Transaction>
+    <Transaction>2024/12/07 16:44:11.500,=C:\Users\kaleu\OneDrive\Desktop\TCC\App\Unit1.pas</Transaction>
+    <Transaction>2024/12/07 16:44:42.386,C:\Users\kaleu\OneDrive\Desktop\TCC\Principal\uPrincipal.dfm=C:\Users\kaleu\OneDrive\Desktop\TCC\App\Unit1.dfm</Transaction>
+    <Transaction>2024/12/07 16:44:42.386,C:\Users\kaleu\OneDrive\Desktop\TCC\Principal\uPrincipal.pas=C:\Users\kaleu\OneDrive\Desktop\TCC\App\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>
