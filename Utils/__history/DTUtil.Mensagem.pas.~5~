@@ -1,0 +1,16 @@
+unit DTUtil.Mensagem;
+
+interface
+
+uses
+  Dialogs;
+
+implementation
+
+function ExibirMensagem(const Titulo, Texto: string; Tipo: TMsgDlgType): Integer;
+begin
+  Result := MessageDlg(Texto, Tipo, [mbOk], 0);
+  MessageDlg(Titulo, Texto, Tipo, [mbOk], 0);  // Exibe a mensagem com o título
+end;
+
+end.

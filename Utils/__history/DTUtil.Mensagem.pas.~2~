@@ -1,0 +1,10 @@
+unit DTUtil.Mensagem;
+
+uses
+  dialog;
+
+interface
+
+implementation
+
+end.

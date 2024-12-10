@@ -1,0 +1,16 @@
+unit DTUtil.Mensagem;
+
+interface
+
+uses
+  Vcl.Dialogs;
+
+implementation
+
+function ExibirMensagem(const Titulo, Texto: string; Tipo: TMsgDlgType): Integer;
+begin
+  Result := MessageDlg(Texto, Tipo, [mbOk], 0);
+  Application.MainForm.Caption := Titulo;
+end;
+
+end.

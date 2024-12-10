@@ -4,7 +4,11 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, uBase, Vcl.ComCtrls, Vcl.ExtCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, uBase, Vcl.ComCtrls, Vcl.ExtCtrls,
+  Data.DB, Datasnap.DBClient;
+
+type
+  TModoRegistro = (mrInsert, mrEdit);
 
 type
   TfrmCadBase = class(TfrmBase)

@@ -1,0 +1,19 @@
+inherited frmCadBase: TfrmCadBase
+  Caption = 'Cadastro base'
+  ClientHeight = 304
+  ClientWidth = 399
+  StyleElements = [seFont, seClient, seBorder]
+  ExplicitWidth = 415
+  ExplicitHeight = 343
+  TextHeight = 15
+  object ClientDataSet1: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    Left = 280
+    Top = 40
+  end
+  object DataSource1: TDataSource
+    Left = 144
+    Top = 112
+  end
+end

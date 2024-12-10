@@ -1,0 +1,36 @@
+object frmBase: TfrmBase
+  Left = 0
+  Top = 0
+  BiDiMode = bdLeftToRight
+  Caption = 'troque o titulo'
+  ClientHeight = 300
+  ClientWidth = 400
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  ParentBiDiMode = False
+  Position = poScreenCenter
+  TextHeight = 15
+  object Edit1: TEdit
+    Left = 136
+    Top = 128
+    Width = 121
+    Height = 23
+    MaxLength = 18
+    NumbersOnly = True
+    TabOrder = 0
+    OnExit = Edit1Exit
+    OnKeyPress = FormatarCPFeCNPJ
+  end
+  object ComboBox1: TComboBox
+    Left = 32
+    Top = 48
+    Width = 145
+    Height = 23
+    TabOrder = 1
+    Text = 'ComboBox1'
+  end
+end
